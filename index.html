@@ -18,14 +18,41 @@
             padding: 1em;
             text-align: center;
         }
+        nav {
+            background-color: #002fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
         .content {
             padding: 2em;
         }
-        h1, h2, h3 {
-            color: #ffffff;
+        h1 {
+            color: #ffffff
+        }
+        h2 {
+            color: #ffffff 
+        }
+            h3 {
+            color: #0003b3;
         }
         section {
             margin-bottom: 2em;
+        }
+        #season {
+            background-color: #353535;
+            color:#0099ff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -33,13 +60,21 @@
     <header>
         <h1>Beachbotics: Inspiring Innovation through FIRST LEGO League</h1>
     </header>
+    <nav>
+        <a href="#season">This Season</a>
+        <a href="#intro">Introduction</a>
+        <a href="#oteam">Our Team</a>
+        <a href="#partner">Partnerships</a>
+        <a href="#achievments">Achievements</a>
+        <a href="#future">The Future</a>
+    </nav>
     <div class="content">
-        <section>
-            <h2>Introduction</h2>
-            <p>Beachbotics is a dynamic team of young innovators and engineers dedicated to exploring the fascinating world of robotics. We are participants in the FIRST LEGO League (FLL), a prestigious international competition that encourages students to engage with STEM (Science, Technology, Engineering, and Mathematics) through hands-on learning and teamwork. Our journey with Beachbotics is fueled by a passion for building, programming, and solving real-world problems through creative engineering solutions.</p>
+        <section id="intro" class="section">
+            <h3>Introduction</h3>
+            <p>Beachbotics is a dynamic team of young innovators and engineers dedicated to exploring the fascinating world of robotics. We are participants in the <a href="http://www.firstlegoleague.org">FIRST LEGO League</a>(FLL), a prestigious international competition that encourages students to engage with STEM (Science, Technology, Engineering, and Mathematics) through hands-on learning and teamwork. Our journey with Beachbotics is fueled by a passion for building, programming, and solving real-world problems through creative engineering solutions.</p>
         </section>
-        <section>
-            <h2>Our Team</h2>
+        <section id="oteam" class="section">
+            <h3>Our Team</h3>
             <p>Our team, Beachbotics, is comprised of students from diverse backgrounds who share a common enthusiasm for robotics and technology. We believe in the power of collaboration and the importance of fostering a supportive and inclusive environment where every team member can thrive. Our collective goal is to inspire one another and our community through our innovative projects and commitment to excellence.</p>
             <h3>Team Members</h3>
             <ul>
@@ -53,12 +88,12 @@
                 <li><strong>Charlie Littler</strong> - Lead Programmer & Innovation Specialist</li>
             </ul>
         </section>
-        <section>
+        <section id="partner" class="section">
             <h3>Partnerships</h3>
-            <p>Beachbotics has established partnerships with Haas, educational institutions, and other organizations that share our commitment to STEM education. These partnerships provide valuable resources and support, helping us to expand our reach and impact.</p>
+            <p>Beachbotics has established partnerships with <a href="http://www.haasf1team.com">Haas</a>, educational institutions, and other organizations that share our commitment to STEM education. These partnerships provide valuable resources and support, helping us to expand our reach and impact.</p>
         </section>
-        <section>
-            <h2>Achievements</h2>
+        <section id="achievements" class="section">
+            <h3>Achievements</h3>
             <p>Since our inception, Beachbotics has achieved numerous milestones. Our team has won awards for innovation, champion, and coach award at various competitions. These achievements reflect our dedication, hard work, and passion for robotics.</p>
             <h3>Awards</h3>
             <ul>
@@ -69,18 +104,19 @@
             <h3>Competitions</h3>
             <p>Beachbotics has competed in several regional competitionn and A national FLL competitionn, consistently ranking among the top teams. Our success is a testament to our team's skill, creativity, and teamwork.</p>
         </section>
-        <section>
-            <h2>Future Goals</h2>
+        <section id="achievements" class="section">
+            <h3>Future Goals</h3>
             <p>Looking ahead, Beachbotics is committed to continuing our journey of exploration and innovation. We aim to expand our projects, reach more students through our community initiatives, and achieve greater success in future competitions. Our ultimate goal is to inspire a love of STEM in others and make a positive impact on our world through innovative engineering solutions.</p>
             <h3>Expansion Plans</h3>
             <p>We plan to expand our team to include more members and mentor younger students interested in robotics. By fostering a culture of mentorship and learning, we hope to build a impactful program that continues to grow.</p>
             <h3>Advanced Projects</h3>
             <p>Beachbotics is excited to take on more advanced projects that push the boundaries of what is possible with robotics. We are exploring new technologies and methodologies to create even more innovative solutions.</p>
         </section>
-        <section>
-            <h2>Conclusion</h2>
+        <section id="season" class="section">
+            <h2>This Season 2024-2025</h2>
             <p>Beachbotics is more than just a robotics team; we are a community of passionate learners and innovators dedicated to making a difference through STEM. Our journey in the FIRST LEGO League is just the beginning, and we are excited to see where our creativity and hard work will take us. We invite you to join us on this exciting adventure and support our mission to inspire the next generation of engineers and scientists.</p>
         </section>
+        <section> </section>
     </div>
 </body>
 </html>
